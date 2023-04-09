@@ -143,3 +143,32 @@ nav ul li:nth-child(5)::before {
 }
 
 /* HERO END */
+
+.section_infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#card {
+    background: #FFFFFE;
+    width: 180px;
+    height: 190px;
+    padding: 50px 20px;
+    border-radius: 4px;
+}
+
+#card:hover {
+    background: #6246EA;
+    color: #FFFFFE;
+}
+
+#card img {
+    margin-bottom: 25px;
+}
