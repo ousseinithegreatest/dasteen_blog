@@ -13,6 +13,11 @@ body,
     font-family: PlusJakarta;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 header {
     background: #EFF0F3;
 }
@@ -77,5 +82,64 @@ nav ul li:nth-child(5)::before {
 
 
 .container {
-    margin: 0 170px;
+    margin: 0 140px;
 }
+
+/* HERO */
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content_hero {
+    margin-top: 110px;
+}
+
+#hero img {
+    margin-top: 30px;
+}
+
+#hero #content_hero {
+    width: 545px;
+}
+
+#content_hero h2 {
+    width: 270px;
+    font-size: 35px;
+}
+
+#content_hero p {
+    color: #9A9494;
+    border-left: 2px solid #2B2C34;
+    padding-left: 5px;
+    margin: 20px 0;
+}
+
+#content_hero input {
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: #9A9494;
+    width: 360px;
+    height: 40px;
+}
+
+#content_hero button {
+    background: #6246EA;
+    color: #FFFFFE;
+    padding: 12px 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+#scroll_btn {
+    background: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+}
+
+/* HERO END */
