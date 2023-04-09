@@ -144,6 +144,8 @@ nav ul li:nth-child(5)::before {
 
 /* HERO END */
 
+/* CATEGORY */
+
 .section_infos {
     display: flex;
     justify-content: space-between;
@@ -159,6 +161,7 @@ nav ul li:nth-child(5)::before {
 #card {
     background: #FFFFFE;
     width: 180px;
+    margin-bottom: 45px;
     height: 190px;
     padding: 50px 20px;
     border-radius: 4px;
@@ -172,3 +175,5 @@ nav ul li:nth-child(5)::before {
 #card img {
     margin-bottom: 25px;
 }
+
+/* CATEGORY END */
